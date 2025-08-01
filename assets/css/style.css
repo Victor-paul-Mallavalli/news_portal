@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #f8f9fa !important;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: gray;
+    padding-left: 10px;
+}
+
+/* Main Content */
+.container {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+/* Category Filter */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+form select {
+    padding: 5px;
+}
+
+/* Article Styles */
+.article {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.article h3 {
+    margin-bottom: 10px;
+}
+
+.article a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+    }
+    .container {
+        margin-left: 0;
+    }
+}
