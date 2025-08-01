@@ -59,7 +59,7 @@ A dynamic and responsive full-stack News Portal built using **PHP**, **MySQL**, 
 
 For any queries, feel free to connect with me:
 **Victor Paul Mallavalli**
-Email: `victormallavalli7@gmail.com`
-LinkedIn: `https://www.linkedin.com/in/victor-paul-mallavalli-a1a632299/`
+* Email: `victormallavalli7@gmail.com`
+* LinkedIn: `https://www.linkedin.com/in/victor-paul-mallavalli-a1a632299/`
 
 ---
